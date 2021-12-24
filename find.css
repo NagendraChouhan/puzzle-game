@@ -1,0 +1,101 @@
+.bg_div
+{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 4%;
+    padding: 2%;
+    min-height: 520px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow:10px 20px 20px blue;
+}
+.row_div
+{
+    overflow: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+.btn_block
+{
+    margin: 0.5%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px white;
+    background-color: gray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image:" ";
+    display: none;
+}
+.btn_block:hover
+{
+    background-color: lightblue;
+}
+.aside_class
+{
+    float: right;
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 20%;
+    box-shadow:10px 10px 6px black;
+    padding: 1%;
+    margin: 2%;
+    margin-top: 0%;
+    min-height: 200px;
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+#result
+{
+    color: red;
+    font-size: 20pX;
+    text-align: center;
+    margin: 2%;
+    margin-left: 12%;
+    padding: 3%;
+    text-decoration: blink;
+    min-width: 10%;
+    
+}
+.aside_class button
+{
+    min-width: 40%;
+    height: 40px;
+    border-radius: 5px 5px;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow:7px 8px 6px black;
+    font-size: 20px;
+}
+#time
+{
+    box-shadow:7px 8px 6px black;
+    font-size: 20px;
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    border: 2px solid green;
+}
+#result img
+{
+    width: 12%;
+    height: 25px;
+}
+#result,#result img {
+    animation: blinker 0.6s linear infinite;
+  }
+  
+@keyframes blinker {
+    10% {
+      opacity: 0;
+    }
+}

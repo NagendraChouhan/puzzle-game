@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="vinodh-sivaraja-iso-math-maze-concept4.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzal Match Game</title>
+    <link rel="stylesheet" type="text/css" href="find.css">
+</head>
+<body style="text-align: center;text-align: center; background-image: url('img/vinodh-sivaraja-iso-math-maze-concept4.jpg');">
+    <div class="main_div">
+        <aside class="aside_class">
+            <span id="time">Time &nbsp;&nbsp;&nbsp;45</span><br><br>
+            <button id="start_btn" onclick="start()">START</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button disabled id="end_btn" onclick="end()" style="opacity: 0.5;">END</button><br><br><br>
+            <span>Hihest Score</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="hscore" readonly style="min-width: 10%;"><br><br><br>
+            <span>Score</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="score" readonly value="0" style="min-width: 10%;"><br><br>
+            <span id="result"></span>
+        </aside>
+        </div>
+        <div class="bg_div">
+            <h1 style="color:red;">Puzzal Match Game</h1>
+            <div class="row_div">
+                <button class="btn_block" style="background-image: url('img/download.jpg');" onclick="photo('img/download.jpg',0)"></button>
+                <button class="btn_block" style="background-image: url('img/images.jpg');" onclick="photo('img/images.jpg',1)"></button>
+                <button class="btn_block" style="background-image: url('img/images(2).jpg');" onclick="photo('img/images(2).jpg',2)"></button>
+                <button class="btn_block" style="background-image: url('img/images(1).jpg');" onclick="photo('img/images(1).jpg',3)"></button>
+                
+            </div>
+            <div class="row_div">
+                <button class="btn_block" style="background-image: url('img/images(1).jpg');" onclick="photo('img/images(1).jpg',4)"></button>
+                <button class="btn_block" style="background-image: url('img/images(2).jpg');" onclick="photo('img/images(2).jpg',5)"></button>
+                <button class="btn_block" style="background-image: url('img/images(3).jpg');" onclick="photo('img/images(3).jpg',6)"></button>
+                <button class="btn_block" style="background-image: url('img/download.jpg');" onclick="photo('img/download.jpg',7)"></button>
+            </div>
+            <div class="row_div">
+                <button class="btn_block" style="background-image: url('img/download.jpg');" onclick="photo('img/download.jpg',8)"></button>
+                <button class="btn_block" style="background-image: url('img/images(2).jpg');" onclick="photo('img/images(2).jpg',9)"></button>
+                <button class="btn_block" style="background-image: url('img/images.jpg');" onclick="photo('img/images.jpg',10)"></button>
+                <button class="btn_block" style="background-image: url('img/images(1).jpg');" onclick="photo('img/images(1).jpg',11)"></button>
+
+
+            </div>
+            <div class="row_div">
+                <button class="btn_block" style="background-image: url('img/download.jpg');" onclick="photo('img/download.jpg',12)"></button>
+                <button class="btn_block" style="background-image: url('img/images(1).jpg');" onclick="photo('img/images(1).jpg',13)"></button>
+                <button class="btn_block" style="background-image: url('img/images(3).jpg');" onclick="photo('img/images(3).jpg',14)"></button>
+                <button class="btn_block" style="background-image: url('img/images(2).jpg');" onclick="photo('img/images(2).jpg',15)"></button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="find.js"></script>
+</body>
+</html>
